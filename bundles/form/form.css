@@ -1,0 +1,9 @@
+.no-webp .form-page {
+  background-image: url("../../images/contact-bg.png"); }
+.form-page {
+  background: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.webp .form-page { background-image: url(../../images/contact-bg.webp); }
