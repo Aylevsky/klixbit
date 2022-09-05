@@ -52,7 +52,7 @@
             </div>
           </div>
         </transition>
-        <div class="modal" v-show="homemodal" @click="homemodal = false">
+        <div class="modal" v-show="homemodal" @click="homemodal = false" ref="modal">
           <div class="modal__wrapper" @click.stop="">
             <div class="modal__close" @click="homemodal = false"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.5">
